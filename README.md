@@ -2,10 +2,6 @@
 
 A Perl script to generate stylised HTML release notes from the Github API.
 
-## Progress
-
-No code has been written yet. It will not work. You can't even try.
-
 ## Brief
 
 Some sort of static page generator which sucks up github issues for a particular release (or regen for all releases),
@@ -28,4 +24,8 @@ formats it nicely, either using our skin, or just into a form that gets plugged 
 - Make an index page which lists all releases and their dates and links into each
 - Ideally any images embedded in the markdown in the issue description should come through properly
 - Link to this for testing: http://static.thecrag.com/cids/portal-1.1.29.css
+
+## Progress
+
+No code has been written yet. It will not work. You can't even try.
 
