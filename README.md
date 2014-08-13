@@ -2,6 +2,10 @@
 
 A Perl script to generate stylised HTML release notes from the Github API.
 
+## Progress
+
+No code has been written yet. It will not work. You can't even try.
+
 ## Brief
 
 Some sort of static page generator which sucks up github issues for a particular release (or regen for all releases),
@@ -10,7 +14,8 @@ formats it nicely, either using our skin, or just into a form that gets plugged 
 ## Requirements
 
 - Needs to be aware of bugs vs enhancements vs new features. 
-- New features get a bigger blurb, possibly extracted from the issue description. Bugs just get a link to github issue
+- New features get a bigger blurb, possibly extracted from the issue description
+- Bugs just get a link to github issue
 - Generate a nice icon for each release for when we link to it from facebook etc
 - Can exclude certain milestones
 - Only works for milestones that are closed
