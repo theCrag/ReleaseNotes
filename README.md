@@ -27,5 +27,5 @@ formats it nicely, either using our skin, or just into a form that gets plugged 
 
 ## Progress
 
-No code has been written yet. It will not work. You can't even try.
+Very basic stages. No API integration, simply testing HTML output.
 
