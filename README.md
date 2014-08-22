@@ -14,13 +14,11 @@ API: https://api.github.com/repos/theCrag/website/issues?milestone=10&state=clos
 
 - Needs to be aware of bugs vs enhancements vs new features. 
 - New features get a bigger blurb, possibly extracted from the issue description
-- Bugs just get a link to github issue
+- Bugs just get a link to github issue, just show the name
 - Generate a nice icon for each release for when we link to it from facebook etc
 - Can exclude certain milestones
 - Only works for milestones that are closed
-- For new features, include the issues description up to a -- marker
-- For improvements, see above
-- For bugs just show the name
+- For new features, improvements: include the issues description up to a -- marker
 - If tagged internal then ignore
 - If run with no input arguments, runs through every milestone and generates a page for it. We'll need this for the back history anyway, may as well re-run it each release, sometimes the odd issue gets moved or reopened.
 - Each milestone becomes it's own file based on the milestone name, eg "Release 39 - Topo rewrite" becomes "release-37.html" based on the pattern "Release (\d+) - (.*)". If it doesn't match this pattern throw a warning to stderr and ignore that milestone.
