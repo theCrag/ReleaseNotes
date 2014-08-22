@@ -7,6 +7,9 @@ A Perl script to generate stylised HTML release notes from the Github API.
 Some sort of static page generator which sucks up github issues for a particular release (or regen for all releases),
 formats it nicely, either using our skin, or just into a form that gets plugged into our /article/ dir and picked up from there.
 
+Inspiration: https://www.mozilla.org/en-US/firefox/31.0/releasenotes/
+API: https://api.github.com/repos/theCrag/website/issues?milestone=10&state=closed
+
 ## Requirements
 
 - Needs to be aware of bugs vs enhancements vs new features. 
