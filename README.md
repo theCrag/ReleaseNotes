@@ -28,5 +28,5 @@ API: https://api.github.com/repos/theCrag/website/issues?milestone=10&state=clos
 
 ## Progress
 
-Very basic stages. No API integration, simply testing HTML output.
+Basic Stages. Can pull the GitHub API but not parsing. Simple HTML formatting using portal.css.
 
