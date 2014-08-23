@@ -12,7 +12,7 @@ API: https://api.github.com/repos/theCrag/website/issues?milestone=10&state=clos
 
 ## Requirements
 
-- Needs to be aware of bugs vs enhancements vs new features. 
+- Needs to be aware of bugs vs enhancements vs new features.
 - New features get a bigger blurb, possibly extracted from the issue description
 - Bugs just get a link to github issue, just show the name
 - Generate a nice icon for each release for when we link to it from facebook etc
@@ -28,5 +28,4 @@ API: https://api.github.com/repos/theCrag/website/issues?milestone=10&state=clos
 
 ## Progress
 
-Basic Stages. Can pull the GitHub API but not parsing. Simple HTML formatting using portal.css.
-
+Basic Stages. Can pull the GitHub API, basic parsing. Simple HTML formatting using portal.css.
